@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.izquierda {
+  background: #fdc21d;
+  height: 100vh;
+  width: 50%;
+}
+
+.derecha {
+  background: url(./Notion-logo.svg.png);
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  height: 100vh;
+}
+
+#pantalla-dividida {
+  display: flex;
+}
+
+.creative {
+  color: #fff;
+}
+
+h1 {
+  font-size: 60px;
+  width: 50%;
+  padding: 4rem;
+  margin: auto;
+}
+
+p {
+  font-size: 30px;
+  text-align: justify;
+  margin: auto;
+  padding: 0rem 4rem;
+}
+
+button {
+  border-radius: 50px;
+  color: #fff;
+  border: 10px solid #fff;
+  background: #fdc21d;
+  margin-left: 25%;
+  margin-top: 4rem;
+  width: 40%;
+  height: 10%;
+  transition-property: box-shadow;
+  transition-duration: 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 15px 20px 0px 0px #222;
+  transform: scale(1);
+}
+
+button a {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
